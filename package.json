@@ -4,7 +4,9 @@
   "description": "OpenCorporates API Test",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --expose-gc --max_old_space_size=8000 server.js --PORT=4000",
+    "deploy": "node --expose-gc --max_old_space_size=8000 server.js --PORT=3000"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,30 @@
   "bugs": {
     "url": "https://github.com/razorcell/opencorporates/issues"
   },
-  "homepage": "https://github.com/razorcell/opencorporates#readme"
+  "homepage": "https://github.com/razorcell/opencorporates#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.3",
+    "config": "^3.1.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-validator": "^5.3.1",
+    "fast-csv": "^3.1.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.11",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "socks-proxy-agent": "^4.0.2",
+    "string-similarity": "^3.0.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "nodemon": "^1.19.1"
+  }
 }

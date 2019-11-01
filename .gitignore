@@ -1,3 +1,11 @@
+#Project specific
+/node_modules
+.eslintrc.json
+/downloads
+/logs
+/routes/api/downloads/*
+!/routes/api/downloads/.gitkeep
+
 # Logs
 logs
 *.log

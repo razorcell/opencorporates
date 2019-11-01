@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb://root:FW6bJQDj9Lz99mwsJoetqy@192.168.1.154:27017/opencorporates?serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&authSource=admin&authMechanism=SCRAM-SHA-1",
+  "jwtSecret": "X%r8bs@S!FCcGFjqpNA!m&"
+}
