@@ -30,7 +30,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "express-validator": "^5.3.1",
-    "fast-csv": "^3.1.0",
+    "fast-csv": "^4.3.6",
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.11",
